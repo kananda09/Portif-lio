@@ -17,3 +17,7 @@ const observer = new IntersectionObserver(
 document.querySelectorAll(".hidden").forEach((el) => {
   observer.observe(el);
 });
+
+
+console.log('Script carregado — navbar fixa responsiva funcionando!');
+
